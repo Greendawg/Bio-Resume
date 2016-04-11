@@ -26,7 +26,8 @@
     background-color: lightskyblue;
     text-align: center;
     display: inline-block;
-    width: 200px;
+    width: 250px;
+    height: 30px;
     text-decoration: none;
     color: black;
 }
@@ -34,7 +35,42 @@
         background-color: dodgerblue;
 }
 #navBar .active{
-        color: cadetblue;
+        color: red;
+}
+
+@keyframes circle {
+    0% {left: 0px; top: 0px;}
+    10% {left: 33px; top: 0px;}
+    20% {left: 66px; top: 0px;}
+    25% {left: 100px; top: 0px;}
+    30% {left: 100px; top: 33px;}
+    40% {left: 100px; top: 66px;}
+    50% {left: 100px; top: 100px;}
+    60% {left: 66px; top: 100px;}
+    70% {left: 33px; top: 100px;}
+    75% {left: 0px; top: 100px;}
+    80% {left: 0px; top: 66px;}
+    90% {left: 0px; top: 33px;}
+    100% {left: 0px; top: 0px;}
+}
+
+#y-mountain{
+    animation: circle 5s infinite linear;
+    position: relative;
+}
+
+.enbolden:hover{
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+.container{
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: mediumpurple;
 }
 
 /*label:hover{
