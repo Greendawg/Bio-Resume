@@ -1,5 +1,5 @@
 #contactInfo{
-    background-image: url("./src/img/Y-mountain_fire.jpg");
+    background-image: url("src/img/Y-mountain_fire.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -55,7 +55,7 @@
 }
 
 #y-mountain{
-    animation: circle 5s infinite linear;
+    animation: circle 5s infinit linear;
     position: relative;
 }
 
@@ -65,7 +65,13 @@
 
 }
 
-.container{
+@media screen and (max-width: 1000px) {
+    img#family_pic {
+        max-width: 700px
+    }
+}
+
+.containerNavBar{
     display: flex;
     flex: 100%;
     flex-direction: row;
