@@ -79,6 +79,10 @@
     background-color: mediumpurple;
 }
 
+.jumbotron{
+    background-color: #d0ffa4;
+}
+
 /*label:hover{
     color: red;
     opacity: 0.5;
