@@ -10,7 +10,7 @@
     <script src="jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
 </head>
-<body bgcolor="#e0ffff">
+<body bgcolor="#00ff00">
 <div id="contactInf" align="center">
     <h1>Lance Greener</h1>
     <h3>351 E 1780 S Orem, UT 84058</h3>
@@ -26,9 +26,9 @@
 <br/><br/>
 <form method="post">
     Hey, I'm glad you found me! I'd love to get back to you. Please leave me your contact information.<br/><br/>
-    <label for="firstName">First Name </label><input id="firstName" name="firstName"required pattern="[a-zA-Z]"><br/><br/>
-    <label for="lastName">Last Name </label><input id="lastName" name="lastName" required pattern="[a-zA-Z]"><br/><br/>
-    <label for="email">Email Address </label><input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br/><br/>
+    <label for="firstName">First &amp; Last Name:</label><input id="firstName" name="firstName"required pattern="[a-zA-Z]">
+    <label for="lastName"></label><input id="lastName" name="lastName" required pattern="[a-zA-Z]"><br/><br/>
+    <label for="email">Email Address:</label><input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br/><br/>
     Where did we meet?
     <select name="howDoIKnowYou">
         <option label="" value="0"></option>
@@ -40,7 +40,7 @@
     </select><br/><br/>
     Where do you currently live?
     <label for="city">City </label><input id="city" name="city">
-    State <select name="state">
+    <strong>State</strong> <select name="state">
         <option label="" value="0"></option>
         <option label="AK" value="1"></option>
         <option label="AL" value="2"></option>
