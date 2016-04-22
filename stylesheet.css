@@ -83,6 +83,12 @@
     background-color: #d0ffa4;
 }
 
+.img-responsive{
+    display: block;
+    height: auto;
+    width: 100%
+}
+
 /*label:hover{
     color: red;
     opacity: 0.5;
